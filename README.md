@@ -4,6 +4,28 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+First, run API: 
+Change data in file 'package.json'
+### "scripts": {
+###     "start": "react-scripts start",
+### },
+
+Change to ->
+### "scripts": {
+###     "start": "json-server --watch apisanpham.json",
+### },
+
+Run in Terminal:
+### `npm start`
+
+Open link API:
+### http://localhost:3000/apiproduct
+
+Change data again in file 'package.json'
+### "scripts": {
+###     "start": "react-scripts start",
+### },
+
 In the project directory, you can run:
 
 ### `npm start`
